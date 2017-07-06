@@ -13,5 +13,7 @@ end
   resources :jobs do
     resources :resumes
   end
+
+  resources :resumes
   root 'jobs#index'
 end
